@@ -1,0 +1,182 @@
+/* I got so used to using SASS when doing CSS sheets, that I'm struggling staying organized here */
+
+body {
+    background-color: #f9bee0;
+}
+
+section {
+    padding: 0 2em 1em;
+}
+
+.top {
+    display: block;
+    margin: 5%;
+    text-align: center;
+}
+
+label {
+    float: left;
+    width: 11em;
+    text-align: center;
+}
+
+input,
+textarea {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+    text-align: center;
+}
+
+input {
+    width: 7em;
+
+}
+
+img {
+    height: 40%;
+}
+
+header {
+    display: block;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+header img {
+    width: 40%;
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+}
+
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+
+form {
+    display: inline;
+    text-align: center;
+    width: 50%;
+}
+
+legend {
+    color: rgb(223, 28, 142);
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+
+
+nav li {
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 191);
+}
+
+footer {
+    border-top: 2px solid black;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    margin: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content p {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-content img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    display: block;
+    border: 2px solid black;
+    margin-top: 5px;
+    padding: 15px;
+    background-color: white;
+}
+
+label {
+    color: #f9bee0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#submit {
+    background-color: white;
+    border: 2px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    display: block;
+    border: 2px solid black;
+    margin-top: 5px;
+    padding: 15px;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.content img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    display: block;
+    border: 2px solid black;
+    margin-top: 5px;
+    padding: 15px;
+    background-color: white;
+}
+
+#social li {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#social a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#social a:hover {
+    color: #e62786;
+}
+
+.top {
+    border-bottom: 2px solid black;
+}
+
+footer p {
+    font-size: 20px;
+}
+
